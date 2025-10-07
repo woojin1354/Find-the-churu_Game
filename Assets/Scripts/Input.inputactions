@@ -1,0 +1,47 @@
+{
+    "version": 1,
+    "name": "Input",
+    "maps": [
+        {
+            "name": "Jump",
+            "id": "aea9f1b2-c6f3-4877-81f0-4e83c4125ad5",
+            "actions": [
+                {
+                    "name": "Jump",
+                    "type": "Value",
+                    "id": "8ca81e30-cfe0-4cdc-9e81-1b87a32a637b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "dce5113f-cbcf-4f83-8677-67529151f2d4",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";PC",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "PC",
+            "bindingGroup": "PC",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
